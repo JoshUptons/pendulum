@@ -1,0 +1,128 @@
+
+
+Questions:
+
+- Are you familiar with Python and or Javascript?
+- What makes languages like Python and Javascript different from most other languages?
+- What kind of Projects have you build using these languages?
+- Can you describe object oriented programming?
+- What kind of databases have you had experience with?
+- What is a relational database?
+- Start with the basics, what are the basic operations you can conduct on a database?
+- What are some of the basic data types in an SQL database?
+- What are some dangers that arise when storing users data, and what best-practices might you employ to mitigate them?
+
+Answer:
+STANDARD: 1, 6
+BULKY: 2, 3, 4, 7, 8, 9, 12
+HEAVY: 2, 3, 5, 8, 10
+INVALID: 2, 8
+
+Post Office Sorting
+
+You work in a large post office, that needs to sort packages into categories for processing.
+Packages have the following attributes:
+    - width (cm)
+    - length (cm)
+    - depth (cm)
+    - weight (kg)
+The categories:
+    - STANDARD
+    - HEAVY
+    - BULKY
+    - INVALID
+
+A Package is HEAVY when the weight of a package is over 12kg.
+A Package is BULKY when the volume of a package is over 150cm cubed. 
+    Volume can be calculated as the packages WIDTH * LENGTH * DEPTH
+A Package is INVALID when it is both HEAVY and BULKY
+
+Given the set of packages:
+{
+  "packages": [
+    {
+      "id": 1,
+      "width": 10,
+      "length": 5,
+      "depth": 1,
+      "weight": 8
+    },
+    {
+      "id": 2,
+      "width": 12,
+      "length": 6,
+      "depth": 9,
+      "weight": 15
+    },
+    {
+      "id": 3,
+      "width": 8,
+      "length": 4,
+      "depth": 5,
+      "weight": 1
+    },
+    {
+      "id": 4,
+      "width": 20,
+      "length": 15,
+      "depth": 10,
+      "weight": 10
+    },
+    {
+      "id": 5,
+      "width": 6,
+      "length": 8,
+      "depth": 1,
+      "weight": 18
+    },
+    {
+      "id": 6,
+      "width": 15,
+      "length": 4,
+      "depth": 1,
+      "weight": 9
+    },
+    {
+      "id": 7,
+      "width": 9,
+      "length": 11,
+      "depth": 13,
+      "weight": 7
+    },
+    {
+      "id": 8,
+      "width": 14,
+      "length": 7,
+      "depth": 8,
+      "weight": 14
+    },
+    {
+      "id": 9,
+      "width": 18,
+      "length": 9,
+      "depth": 2,
+      "weight": 6
+    },
+    {
+      "id": 10,
+      "width": 5,
+      "length": 7,
+      "depth": 1,
+      "weight": 13
+    },
+    {
+      "id": 11,
+      "width": 3,
+      "length": 12,
+      "depth": 4,
+      "weight": 5
+    },
+    {
+      "id": 12,
+      "width": 16,
+      "length": 14,
+      "depth": 18,
+      "weight": 11
+    }
+  ]
+}
