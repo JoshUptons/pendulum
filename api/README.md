@@ -37,11 +37,11 @@ To initialize the backend processes run the following commands:
 If the scripts do not run, you will need to either manually set the node instances in a background process,
 or run them in 5 different terminal windows.
 
-`node index 3000`
-`node index 3001`
-`node index 3002`
-`node index 3003`
-`node index 3004`
+`node index 3000`  
+`node index 3001`  
+`node index 3002`  
+`node index 3003`  
+`node index 3004`  
 
 I would have changed to dynamic port selection, but just ran out of time.
 These ports are hardcoded on the frontend, so please use these to ensure it runs.
